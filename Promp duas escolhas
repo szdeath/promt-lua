@@ -1,0 +1,7 @@
+local escolha = gg.alert("Zero: Buy One Engine\n50M: Sell Engine", "50M", "Zero")
+
+if escolha == 1 then
+    gg.toast("done")
+elseif escolha == 2 then
+    gg.toast("done")
+end
